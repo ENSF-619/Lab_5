@@ -14,10 +14,27 @@ double Rectangle::perimeter() const
 void Rectangle::display()
 {
 	Shape::display();
-	cout << "side a:" << get_side_a()<< endl;
-	cout << "side b:" << get_side_b() << endl;
+	cout << "side a: " <<setprecision(9)<<get_side_a()<< endl;
+	cout << "side b: "<<setprecision(9) << get_side_b() << endl;
 	cout << "Area: " << setprecision(9)<<area()<< endl;
-	cout << "Perimeter" << setprecision(9) << perimeter() << endl;
+	cout << "Perimeter: " << setprecision(9) << perimeter() << endl;
+}
+
+Rectangle::Rectangle(const Rectangle& r):Square(r)
+{
+	side_b = r.side_b;
+
+}
+
+Rectangle& Rectangle::operator=( Rectangle& rhs)
+{
+	
+	if (this != &rhs) {
+		Square::operator=(rhs);
+		side_b = rhs.side_b;
+		
+	}
+	return *this;
 }
 
 double Rectangle::get_side_b() const

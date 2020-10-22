@@ -9,6 +9,8 @@ public:
 	void set_side_b(double num);
 	double perimeter() const;
 	void display();
+	Rectangle(const Rectangle& r);
+	Rectangle& operator=( Rectangle& rhs);
 private:
 	double side_b;
 };

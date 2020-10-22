@@ -13,6 +13,8 @@ public:
 	void display();
 	double get_side_a() const;
 	void set_side_a(double num);
+	Square(const Square& r);
+	Square& operator=(const Square& rhs);
 	
 private:
 	double side;

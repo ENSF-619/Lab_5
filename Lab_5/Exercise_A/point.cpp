@@ -26,8 +26,8 @@ int Point::get_counter()
 
 void Point::display() const
 {
-	cout << "X-Coordinate: " << setprecision(2) << this->x<<endl;
-	cout << "Y-Coordinate: " << setprecision(2) << this->y << endl;
+	cout << "X-Coordinate: " << setprecision(8) << this->x<<endl;
+	cout << "Y-Coordinate: " << setprecision(8) << this->y << endl;
 
 }
 
@@ -35,8 +35,8 @@ Point::Point(double x=0, double y=0)
 {
 	this->x = x;
 	this->y = y;
-	Point::counter++;
-	id = 1001 + Point::counter;
+	counter++;
+	id = 1001 +counter;
 }
 
 double Point::getx() const
@@ -58,6 +58,29 @@ void Point::sety(double y)
 {
 	this->y = y;
 
+}
+
+int Point::get_id() const
+{
+	return id;
+}
+
+Point& Point::operator=(const Point& rhs)
+{
+	if (this != &rhs) {
+		this->x = rhs.getx();
+		this->y = rhs.gety();
+		this->id = rhs.id;
+		
+	}
+	return *this;
+}
+
+Point::Point(const Point& r)
+{
+	this->x = r.getx();
+	this->y = r.gety();
+	this->id = r.id;
 }
 
 

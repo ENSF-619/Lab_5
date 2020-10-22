@@ -15,7 +15,9 @@ public:
 	double gety() const;
 	void setx(double x) ;
 	void sety(double y);
-	
+	int get_id() const;
+	Point& operator=(const Point& rhs);
+	Point(const Point& r);
 	~Point();
 	double distance(const Point& a);
 
