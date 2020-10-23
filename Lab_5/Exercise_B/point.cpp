@@ -1,3 +1,10 @@
+/*
+*File Name: Exercise_B,point.cpp
+* Lab_5
+* Completed by Ziad Chemali
+* Submission: 23,10,2020
+*/
+
 #include"Point.h"
 #include<math.h>
 #include <iostream>

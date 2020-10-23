@@ -1,3 +1,10 @@
+/*
+*File Name: Exercise_B,shape.cpp
+* Lab_5
+* Completed by Ziad Chemali
+* Submission: 23,10,2020
+*/
+
 #include "shape.h"
 #include "Point.h"
 #include <string>

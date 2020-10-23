@@ -1,3 +1,12 @@
+/*
+*File Name: Exercise_A, shape.cpp
+* Lab_5
+* Completed by Ziad Chemali
+* Submission: 23,10,2020
+*/
+
+
+
 #include "shape.h"
 #include "Point.h"
 #include <string>
@@ -96,7 +105,7 @@ int Shape::get_id() const
 
 const Point& Shape::getOrigin()
 {
-	return  origin;// TODO: insert return statement here
+	return  origin;
 }
 
 const char* Shape::getName() const

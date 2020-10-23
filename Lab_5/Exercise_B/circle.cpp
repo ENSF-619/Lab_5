@@ -1,3 +1,10 @@
+/*
+*File Name: Exercise_B,circle.cpp
+* Lab_5
+* Completed by Ziad Chemali
+* Submission: 23,10,2020
+*/
+
 #include "circle.h"
 #include <math.h>
 #include <iomanip>

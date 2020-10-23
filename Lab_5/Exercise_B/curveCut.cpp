@@ -1,3 +1,10 @@
+/*
+*File Name: Exercise_B,curveCut.cpp
+* Lab_5
+* Completed by Ziad Chemali
+* Submission: 23,10,2020
+*/
+
 #include "curveCut.h"
 #include<iostream>
 #include <iomanip>
@@ -9,7 +16,7 @@ CurveCut::CurveCut(double x, double y, double side_a, double side_b, double radi
 
 	}
 	else {
-		cout << "Error, radius didnt meet criteria \n Terminating program..." << endl;
+		cout <<"\nError, radius didnt meet criteria \n Terminating program..." << endl;
 		exit(1);
 	}
 }

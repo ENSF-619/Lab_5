@@ -1,3 +1,13 @@
+/*
+*File Name: Exercise_A, rectangle.cpp
+* Lab_5
+* Completed by Ziad Chemali
+* Submission: 23,10,2020
+*/
+
+
+
+
 #include "rectangle.h"
 #include "shape.h"
 #include<iomanip>

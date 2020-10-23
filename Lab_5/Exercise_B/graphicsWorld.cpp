@@ -1,3 +1,10 @@
+/*
+*File Name: Exercise_B,graphicsWorld.cpp
+* Lab_5
+* Completed by Ziad Chemali
+* Submission: 23,10,2020
+*/
+
 #include"graphicsWorld.h"
 #include "Point.h"
 #include "rectangle.h"
@@ -9,6 +16,7 @@ using namespace std;
 
 void GraphicsWorld::run() {
 	//Exercise B-- Test
+	cout << "Tessting multiple inheritance...completed by Ziad Chemali" << endl;
 #if 1 // Change 0 to 1 to test Point
 	Point m(6, 8);
 	Point n(6, 8);

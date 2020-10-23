@@ -1,3 +1,11 @@
+/*
+*File Name: Exercise_A, Square.cpp
+* Lab_5
+* Completed by Ziad Chemali
+* Submission: 23,10,2020
+*/
+
+
 #include "square.h"
 #include <iomanip>
 Square::Square(double x, double y, double side, const char* name):Shape(x, y, name)
