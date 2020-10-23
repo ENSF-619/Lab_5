@@ -6,7 +6,7 @@
 using namespace std;
 
 void GraphicsWorld::run() {
-	
+	//Exercise A-- Test
 #if 1 // Change 0 to 1 to test Point
 	Point m(6, 8);
 	Point n(6, 8);
@@ -22,7 +22,7 @@ void GraphicsWorld::run() {
 	Square s(5, 7, 12, "SQUARE - S");
 	s.display();
 #endif // end of block to test Square
-#if 1 // Change 0 to 1 to test Rectangle
+#if 1// Change 0 to 1 to test Rectangle
 	cout << "\nTesting Functions in class Rectangle:"<<endl;
 	Rectangle a(5, 7, 12, 15, "RECTANGLE A");
 	a.display();
@@ -72,5 +72,7 @@ void GraphicsWorld::run() {
 	sh[2]->display();
 	sh[3]->display();
 #endif
+	
+
 
 }
